@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color:#06273a;
+  font-family: "Cardo";
+}
+header{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: x-large;
+}
+
+/*Header*/
+.Team{
+  color: white; 
+  font-size: 25px;
+  text-align: center;
+  margin-top: 50px;
+  font-style: oblique;
+}
+.Team p{
+  font-size: 20px;
+}
+
+/*link-click*/
+.figure a{
+  color: #fff;
+  text-decoration: none;
+}
+.figure a:hover{
+  color: #cbaf87;
+}
+#email a{
+  text-decoration: none;
+  color:#2C3333;
+}
+
+/*Member team*/
+.container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 60px;
+}
+.column {
+  border:5px solid #cbaf87;
+  margin-left: 40px;
+  border-radius: 10%;
+  color: #fff;
+  font-style: oblique;
+  text-align: center;
+  padding: 30px;
+  width: 22%;
+}
+.center {
+  width: 200px;
+  border-radius: 10%;
+  margin: 50px;
+  display: block;   
+  margin-right: auto; 
+  margin-left: auto;
+}
+figcaption{
+  font-weight: bolder;
+}
+
+/*FOOTER*/
+footer{
+  margin-top: 70px;
+  background-color: antiquewhite;
+  padding: 20px 0 25px;/*top right-left bottom*/
+  font-weight: bolder;
+}
+.contact p{
+  color: #2C3333; 
+  font-size: 17px;
+  text-align: center;
+  font-style: oblique;
+  font-weight: bolder;
+}
+.lo_Open{
+  color: #2C3333;
+  width: 90%; /*ขอบซ้ายขวา*/
+  margin: auto;
+  display: flex;
+  justify-content: space-between;/*เเยกซ้าย-ขวา*/
+}
+.left h1{
+  color: #2C3333; 
+  font-size: 20px;
+  font-style: oblique;
+}
+.left p{
+  color: #2C3333; 
+  font-size: 14px;
+  font-style: oblique;
+}
+.right h1{
+  color: #2C3333; 
+  font-size: 20px;
+  font-style: oblique;
+}
+.right p{
+  color: #2C3333; 
+  font-size: 14px;
+  font-style: oblique;
+}
