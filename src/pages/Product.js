@@ -17,6 +17,8 @@ class Product extends Component {
             Product_Category: "",
         };
         this.searchproid = this.searchproid.bind(this);
+        this.searchproname = this.searchproname.bind(this);
+        this.searchprocate = this.searchprocate.bind(this);
         this.insertpro = this.insertpro.bind(this);
         this.updatepro = this.updatepro.bind(this);
         this.deletepro = this.deletepro.bind(this);
@@ -241,7 +243,6 @@ class Product extends Component {
                                 <button type="button" onClick={(event) => this.insertpro(event)} class="btn btn-lg btn-primary btn-block text-uppercase">Insert</button>
                                 <button type="button" onClick={(event) => this.updatepro(event)} class="btn btn-lg btn-primary btn-block text-uppercase">Update</button>
                                 <button type="button" onClick={(event) => this.deletepro(event)} class="btn btn-lg btn-primary btn-block text-uppercase">Delete</button>
-                                
                                 <Shows shows={this.state.shows} />
                                 <br></br>
                                 <button type="button" onClick={(event) => this.searchproid(event)} class="btn btn-lg btn-primary btn-block text-uppercase">SearchID</button>
@@ -316,7 +317,6 @@ class Search extends React.Component {
                     );
                 })}
             </table>
-
         );
     }
 }
